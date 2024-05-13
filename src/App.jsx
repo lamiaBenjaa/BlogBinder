@@ -5,6 +5,7 @@ import Blog from './pages/Blog'
 import Business from './pages/Business'
 import Networks from './pages/Networks'
 import Contact from './pages/Contact'
+import Tutorials from './pages/Tutorials'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Routes>
          <Route path='/' element={<Home/>}/>
          <Route path='/Blog' element={<Blog/>}/>
+         <Route path='/Tutorials' element={<Tutorials/>}/>
          <Route path='/Business' element={<Business/>}/>
          <Route path='/Networks' element={<Networks/>}/>
          <Route path='/Contact' element={<Contact/>}/>
